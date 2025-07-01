@@ -38,7 +38,7 @@ class GoldScreen extends StatelessWidget {
                     NumberFormat.simpleCurrency(
                       locale: 'de_DE',
                     ).format(
-                      snapshot.data != null ? snapshot.data! : goldPrice,
+                      goldPrice,
                     ),
                     style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                       color: Theme.of(context).colorScheme.primary,
